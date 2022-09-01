@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <body>
+        <h1>Mi Formulario de Registro</h1>
+        <form>
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </p>
+            <p>    
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </p>
+            <p>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena">
+            </p>
+            <label for="confirmar">Confirmar:</label>
+            <input type="text" id="confirmar" name="confirmar">
+            <p>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="otro">Otro</label>
+            <input type="radio" id="otro" name="genero" value="otro">
+            </p>
+            <label for="cumpleanos">Cumpleaños:</label>
+            <input type="date" id="cumpleanos" name="trip-start"
+            value="2018-07-22"
+            min="1980-01-01" max="2022-03-20">
+            <p>Una breve descripción de ti:<p>
+            <textarea name="description"></textarea>
+            <p>Lenguaje favorito
+            <select name="lenguaje">
+                <option value="javascript">JavaScript</option>
+                <option value="html">HTML</option> 
+                <option value="css">CSS</option>
+            </select>
+            </p>
+
+            <input type="submit" value="Enviar">        
+        </form>
+  </body>
+</html>
+
+
+
